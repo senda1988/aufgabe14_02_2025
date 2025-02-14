@@ -1,0 +1,8 @@
+.sectionContact {
+    display: flex;
+}
+
+.sectionContact .cnt {
+    flex: 1;
+
+}

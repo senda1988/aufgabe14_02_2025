@@ -1,0 +1,26 @@
+.sectionAbout2 {
+    display: flex;
+    justify-content: center;
+
+
+    padding: 30px 10px;
+
+}
+
+
+.image {
+    flex: 1;
+
+}
+
+.imgAbout {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+    flex-wrap: wrap;
+}

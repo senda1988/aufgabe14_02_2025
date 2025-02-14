@@ -1,0 +1,160 @@
+:root {
+    --primary-color: #872341;
+    --second-color: #BE3144;
+    --third-color: #E17564;
+    --backgroud-color-first: #09122C
+}
+
+html,
+body {
+    box-sizing: border-box;
+
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body .navbarContainer {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 50px;
+
+}
+
+h3 {
+    font-size: 26px;
+    color: var(--second-color);
+}
+
+.navArea {
+    flex: 1;
+}
+
+.navAreaOne {
+
+    display: flex;
+
+}
+
+.navAreaTwo {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.navAreaThree {
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+
+
+.navBtn {
+    text-decoration: none;
+    color: var(--second-color);
+    margin: 30px 20px;
+    padding: 10px 10x;
+    font-size: 20px;
+}
+
+.logoImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.login {
+    margin: 30px;
+    padding: 20px 30px;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    color: white;
+}
+
+
+
+.section1 {
+
+    padding: 100px;
+    background-color: var(--backgroud-color-first);
+    background: linear-gradient(var(--backgroud-color-first), rgb(44, 44, 44));
+
+
+}
+
+.homeText {
+
+    font-size: 80px !important;
+    line-height: 90px !important;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary-color);
+
+}
+
+.section1 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(200, 211, 222);
+
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--second-color);
+    text-align: center;
+
+}
+
+.projekte {
+    display: flex;
+}
+
+.oneprojekt {
+    flex: 1;
+    width: 200px;
+    height: auto;
+
+}
+
+.navBtn:hover {
+    color: var(--third-color);
+    font-size: 24px;
+}
+
+.section2 {
+    background-image: url("/images/background.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+}
+
+.footerContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(var(--backgroud-color-first), rgb(44, 44, 44));
+    /* min-height: 100px; */
+    padding: 50px;
+}
