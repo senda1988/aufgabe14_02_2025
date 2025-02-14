@@ -61,8 +61,8 @@ h3 {
 .navBtn {
     text-decoration: none;
     color: var(--second-color);
-    margin: 30px 20px;
-    padding: 10px 10x;
+    margin: 30px 20px 10px 20px;
+    padding: 5px;
     font-size: 20px;
 }
 
@@ -71,13 +71,13 @@ h3 {
     height: 50px;
     border-radius: 50%;
     text-align: center;
+    margin: 30px 20px 10px 20px;
     padding: 5px;
-    margin: 10px;
 }
 
 .login {
     margin: 30px;
-    padding: 20px 30px;
+    padding: 10px 30px;
     text-decoration: none;
     background-color: var(--primary-color);
     border-radius: 8px;
@@ -88,7 +88,7 @@ h3 {
 
 .section1 {
 
-    padding: 100px;
+    padding: 50px 100px;
     background-color: var(--backgroud-color-first);
     background: linear-gradient(var(--backgroud-color-first), rgb(44, 44, 44));
 
@@ -97,7 +97,7 @@ h3 {
 
 .homeText {
 
-    font-size: 80px !important;
+    font-size: 60px !important;
     line-height: 90px !important;
     font-weight: 700;
     letter-spacing: -0.03em;
