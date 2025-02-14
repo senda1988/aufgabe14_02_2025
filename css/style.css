@@ -131,14 +131,12 @@ h2 {
 
 .oneprojekt {
     flex: 1;
-
-
-}
-
-.oneprojekt img {
     width: 200px;
     height: auto;
+
 }
+
+.oneprojekt img {}
 
 
 .navBtn:hover {
