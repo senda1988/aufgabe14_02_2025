@@ -132,13 +132,20 @@ h2 {
 .oneprojekt {
     flex: 1;
 
-
+    padding: 40px 10px;
 }
 
 .oneprojekt img {
     width: 300px;
     height: auto;
     object-fit: cover;
+}
+
+.oneprojekt p {
+    text-decoration: none;
+    color: var(--second-color);
+    text-align: center;
+
 }
 
 
