@@ -36,6 +36,7 @@ h3 {
 
 .navArea {
     flex: 1;
+
 }
 
 .navAreaOne {
@@ -107,6 +108,14 @@ h3 {
     color: var(--primary-color);
 
 }
+
+.homeText {
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
 
 .section1 p {
     display: flex;
