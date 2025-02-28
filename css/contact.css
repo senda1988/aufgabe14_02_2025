@@ -1,19 +1,40 @@
-.sectionContact {
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: var(--second-color);
+}
+
+.section2 {
+    justify-content: center;
     display: flex;
 }
 
-.sectionContact .cnt {
-    flex: 1;
-
-}
-
-.fa-solid {
-
-    color: red;
-    margin-right: 10px;
-    font-size: 24px;
-}
-
-.info {
-    padding: 20px;
+form {
+    width: 50%;
+    display: block;
+    text-align: left;
+    padding: 50px 30px;
 }
