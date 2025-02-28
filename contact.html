@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/test.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Home | Contact</title>
+    <title>Contact</title>
 </head>
 
 <body>
@@ -20,9 +19,9 @@
             </a>
 
         </div>
-        <nav class="navArea  navArea1">
+        <nav class="navArea navArea1">
             <a href="index.html">Home</a>
-            <a href="./about.html">About me</a>
+            <a href="./about.html">About</a>
             <a href="contact.html">Contact</a>
             <div class="animation start-home"></div>
         </nav>
@@ -32,45 +31,56 @@
         </div>
     </div>
     <div class="contentContainer">
+
         <div class="section1">
             <div class="homeText">Contact</div>
-
         </div>
+        <div class="section2">
+            <form action="#">
+                <div class="row">
+                    <label for="fname">Name</label>
 
-        <div class="section2 sectionContact">
-            <div class="cnt image"><img class="imgAbout" src="./images/contact-us.jpg"></div>
-            <div class="cnt content">
-                <h3>contact</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ducimus distinctio voluptatem ullam
-                    porro
-                    similique accusantium recusandae voluptatibus vero ipsam consequuntur ratione sit quis ipsa amet,
-                    autem
-                    animi, praesentium nobis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ducimus
-                    distinctio voluptatem ullam porro</p>
-                <div class="user-info-footer">
-                    <div class="info">
-                        <i class="fa-solid fa-file"></i>
-                        <span>xxx</span>
-                    </div>
+                    <input type="text" id="fname" name="name" placeholder="Your name..">
+
                 </div>
+                <div class="row">
+
+                    <label for="company">company</label>
 
 
-                <div class="info">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>zidi.senda@gmail.com</span>
+                    <input type="text" id="company" name="company" placeholder="Your company..">
                 </div>
-                <div class="info">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span>Deutschland</span>
-                </div>
-            </div>
+                <div class="row">
 
+                    <label for="country">City</label>
+
+
+                    <select id="city" name="city">
+                        <option value="berlin">Berlin</option>
+                        <option value="hamburg">Hamburg</option>
+                        <option value="frankfurt">Frankfurt</option>
+                        <option value="stuttgart">Stuttgart</option>
+                    </select>
+
+                </div>
+                <div class="row">
+
+                    <label for="subject">Subject</label>
+
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
         </div>
-
 
     </div>
 
-    <div class="footerContainer">Senda Zidi 2025</div>
+    <div class="footerContainer">Breakout 4</div>
+
 </body>
 
 </html>
