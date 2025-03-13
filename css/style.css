@@ -131,13 +131,37 @@ h3 {
     letter-spacing: -0.03em;
 
     color: var(--primary-color);
-    flex: 1;
+
     padding: 40px;
     margin: 30px;
 
 }
 
+.left-section-home {
+    display: block;
+    flex: 1;
+}
 
+.fa-solid,
+.fas {
+    color: var(--primary-color)
+}
+
+.info {
+    line-height: 1.6;
+    padding: 10px;
+    padding: 5px 10px;
+}
+
+.download {
+    line-height: 1.6;
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #a1a4a5;
+}
 
 .homesection p {
     flex: 1;
