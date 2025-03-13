@@ -41,9 +41,12 @@
  }
 
  .navArea1 a:nth-child(3) {
-     width: 100px;
+     width: 150px;
  }
 
+ .navArea1 a:nth-child(4) {
+     width: 100px;
+ }
 
  .navArea1 a:nth-child(1):hover~.animation {
      width: 100px;
@@ -60,8 +63,14 @@
 
 
  .navArea1 a:nth-child(3):hover~.animation {
-     width: 100px;
+     width: 150px;
      left: 210px;
+     background-color: var(--second-color);
+ }
+
+ .navArea1 a:nth-child(4):hover~.animation {
+     width: 100px;
+     left: 360px;
      background-color: var(--second-color);
  }
 
