@@ -171,6 +171,10 @@ h3 {
     color: white;
     text-align: left !important;
     justify-content: left;
+    background-image: linear-gradient(to bottom, var(--backgroud-color-first), rgb(44 44 44 / 78%)), url(../images/webdev.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
