@@ -165,11 +165,11 @@ h3 {
 .download {
     line-height: 1.6;
     background: linear-gradient(to bottom, var(--backgroud-color-first), rgb(44 44 44 / 93%));
-    color: white;
+    color: black;
     padding: 20px;
     margin: 15px;
     border-radius: 4px;
-    box-shadow: 5px 5px 5px #a1a4a5;
+    box-shadow: 5px 5px 5px 5px #a1a4a5;
 }
 
 .rn-btn {
