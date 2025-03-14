@@ -26,6 +26,10 @@ body {
 
 }
 
+.contentContainer {
+    margin-top: 2px;
+}
+
 h2 {
     font-size: 50px;
     color: var(--primary-color);
