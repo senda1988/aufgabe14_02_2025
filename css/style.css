@@ -92,6 +92,7 @@ h3 {
     margin: 30px 20px 10px 20px;
     padding: 5px;
     font-size: 20px;
+
 }
 
 
@@ -105,7 +106,9 @@ h3 {
     color: white;
 }
 
-
+.text-left {
+    display: flex;
+}
 
 .section1 {
 
@@ -173,12 +176,13 @@ h3 {
 
 .rn-btn {
     background: red;
-    text-align: left;
+    text-align: center;
     border-radius: 4px;
     padding: 5px;
     margin: 25px 40px 25px 0;
     color: white;
     text-decoration: none;
+    flex: 1;
 }
 
 .homesection p {
