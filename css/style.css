@@ -2,7 +2,7 @@
     --primary-color: #D5051F;
     --second-color: #BE3144;
     --third-color: #E17564;
-    --backgroud-color-first: #09122C
+    --backgroud-color-first: #09122C;
 }
 
 
@@ -10,21 +10,12 @@
 html,
 body {
     box-sizing: border-box;
-
     margin: 0;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.navbarContainer {
-    box-shadow: 0px 0px 5px 0px rgba(39, 47, 75, .2) !important;
 
-    min-height: 100px;
-    display: flex;
-    justify-content: center;
-
-
-}
 
 .contentContainer {
     margin-top: 2px;
@@ -44,48 +35,6 @@ h3 {
     color: var(--second-color);
 }
 
-.navArea {
-    flex: 1;
-
-}
-
-.navAreaOne {
-
-    display: flex;
-    text-align: center;
-    justify-content: center;
-
-}
-
-.navAreaOne a {
-    text-decoration: none;
-    font-size: 28px;
-    text-align: center;
-    margin: 30px 20px 10px 20px;
-    padding: 5px;
-
-
-}
-
-.navAreaOne a span {
-    font-weight: 800;
-    color: var(--primary-color);
-}
-
-
-
-.navAreaTwo {
-
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.navAreaThree {
-    text-align: right;
-    display: flex;
-    justify-content: right;
-}
 
 
 .navBtn {
@@ -98,15 +47,6 @@ h3 {
 }
 
 
-
-.login {
-    margin: 30px;
-    padding: 10px 30px;
-    text-decoration: none;
-    background-color: var(--primary-color);
-    border-radius: 8px;
-    color: white;
-}
 
 .text-left {
     display: flex;
